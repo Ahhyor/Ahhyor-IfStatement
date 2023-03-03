@@ -22,10 +22,11 @@ public class Lab {
     public int ifExample(boolean bool, int x, int y){
 
     if (x==y) {
-        return 1;
+        return x;
     }
     else {
-        return 0;
+        return y;
     }
+    
     }
 }
